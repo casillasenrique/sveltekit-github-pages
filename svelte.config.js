@@ -1,5 +1,4 @@
 import adapter from '@sveltejs/adapter-static';
-console.log(process.env);
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -13,5 +12,7 @@ const config = {
     },
   },
 };
+console.log(process.env.BASE_PATH);
+console.log(config.kit.paths.base);
 
 export default config;
