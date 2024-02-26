@@ -2,7 +2,6 @@
   import Link from '../lib/components/Link.svelte';
   import { base } from '$app/paths';
 
-  console.log(base);
 </script>
 
 <nav>
