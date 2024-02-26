@@ -10,12 +10,7 @@ const config = {
     paths: {
       base: process.argv.includes('dev') ? '' : process.env.BASE_PATH,
     },
-    prerender: {
-      handleHttpError: 'warn',
-    },
   },
 };
-console.log(process.env.BASE_PATH);
-console.log(config.kit.paths.base);
 
 export default config;
