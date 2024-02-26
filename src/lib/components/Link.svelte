@@ -5,4 +5,4 @@
   console.log(`Building link with href=${base}${href}`)
 </script>
 
-<a href="{base}{href}" {...$$props}><slot /></a>
+<a href="{href}" {...$$props}><slot /></a>
